@@ -282,7 +282,7 @@ $ ./autospotting -h
 Usage of ./autospotting:
   -allowed_instance_types="":
         If specified, the spot instances will be of these types.
-        If missing, the type is autodetected frome each ASG based on it's Launch Configuration.
+        If missing, the type is autodetected from each ASG based on it's Launch Configuration.
         Accepts a list of comma or whitespace seperated instance types (supports globs).
         Example: ./autospotting -allowed_instance_types 'c5.*,c4.xlarge'
 
